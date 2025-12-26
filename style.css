@@ -95,6 +95,8 @@ a:visited {
     text-decoration: none;
     border-radius: 3rem;
     box-shadow: 0 0.21rem 0.8rem 0 rgb(0, 0, 0, 0.15);
+    border-bottom: solid 0.4rem #993c38;
+    border-right: solid 0.4rem #993c38;
 }
 
 .realce-semibold {
@@ -158,8 +160,6 @@ nav {
 
 .hero-botao {
     background-image: linear-gradient(180deg, #ff645e, #ff9253);
-    border-bottom: solid 0.4rem #993c38;
-    border-right: solid 0.4rem #993c38;
 }
 
 .hero-botao:hover {
@@ -346,6 +346,108 @@ nav {
 }
 
 /* Seção O que falam */
+
+.secao-oquefalam {
+    background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.container-oquefalam {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.35rem;
+    width: 100%;
+}
+
+.oquefalam-carrossel {
+    position: relative;
+}
+
+.oquefalam-titulo {
+    color: white
+}
+
+.oquefalam-carrossel-img {
+    background-color: #7489af;
+    background-blend-mode: multiply;
+    background-position: 50%;
+    background-size: cover;
+    aspect-ratio: 16/9;
+    width: 30rem;
+    border-radius: 2.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.oquefalam-carrossel-img--1 {
+    background-image: url(https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+.oquefalam-carrossel-img--2 {
+    background-image: url(https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+.oquefalam-carrossel-img--3 {
+    background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.oquefalam-seta {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.seta--esquerda {
+    left: -4rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.seta--direita {
+    right: -4rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.seta-player {
+    cursor: pointer;
+    width: 3rem;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.item-navegacao {
+    cursor: pointer;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: #86a8bc;
+}
+
+.item-navegacao.ativa {
+    background-color: #14577f;
+}
+
+.botao-oquefalam {
+    background-image: linear-gradient(180deg, #196b9f, #1a80a7);
+    border-bottom: solid 0.4rem #14577f;
+    border-right: solid 0.4rem #14577f;
+}
+
+.botao-oquefalam:hover{
+    background-image: none;
+    background-color: #1a80a7;
+    border-bottom: solid 0.4rem #1a80a7;
+    border-right: solid 0.4rem #1a80a7;
+}
+/* Seção Blog */
 
 .blog-postadoem a {
     font-size: 1.5rem;
